@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "jsx": "react",
+        "paths": {
+            "@services/*": ["services/*"],
+            "@store/*": ["store/*"],
+        },
+    },
+    "exclude": ["node_modules", "build"]
+}
